@@ -60,7 +60,7 @@ Time spent: 9 hours spent in total
 
 ## Notes
 
-I had some difficulty with editing the mp3s metadata seeing as I did not have the appropriate software on my mac. I ended up having to download 3rd party software to deal with thi.
+I had some difficulty with editing the mp3s metadata seeing as I did not have the appropriate software on my mac. I ended up having to download 3rd party software to deal with this. Also, ignore the '|' in some of the html tags. The markdown interpreter was interpreting them as actual html and I couldn't figure out how to comment them out in time.
 
 ## License
 
