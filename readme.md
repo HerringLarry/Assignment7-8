@@ -13,7 +13,7 @@ Time spent: 9 hours spent in total
     - Fixed in version: 4.2.1 
   - [ ] GIF Walkthrough:![](XSS1.gif) 
   - [ ] Steps to recreate:
-    1. Create a new post and insert an img tag like this ''<img src="https://cdn.pixabay.com/photo/2017/05/13/23/05/img-src-x-2310895_960_720.png" onmouseover="alert('haha')">''
+    1. Create a new post and insert an img tag like this '<img src="https://cdn.pixabay.com/photo/2017/05/13/23/05/img-src-x-2310895_960_720.png" onmouseover="alert('haha')">'
     2. When a user hovers over the img an alert should appear
   - [ ] Affected source code:
   - [Authenticated Stored XSS Source](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/image.php)
@@ -26,7 +26,7 @@ Time spent: 9 hours spent in total
   - [ ] GIF Walkthrough:![](XSS2.gif)
   - [ ] Steps to recreate:
   1. Create a new post
-  2. Change the title to '''<a href="www.google.com" onmouseover="alert('HACKED')">A</a>'''
+  2. Change the title to '<a href="www.google.com" onmouseover="alert('HACKED')">A</a>'
   3. Publish Post
   4. Have user hover over post
   - [ ] Affected source code:
@@ -40,7 +40,7 @@ Time spent: 9 hours spent in total
   - [ ] GIF Walkthrough:![](XSS3.gif)
   - [ ] Steps to recreate:
     1. Create an mp3 that is under 2mb
-    2. Change the files title in its metadata to include '''hello <script>alert('hello');</script>'''
+    2. Change the files title in its metadata to include 'hello <script>alert('hello');</script>'
     3. Upload the file
     4. Go to view attachment page
     5. See the alert
